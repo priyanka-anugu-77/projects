@@ -43,13 +43,9 @@ const Contact = () => {
             <h1 className='contactpageTitle'> My clients</h1>
             <p className='clientSesc'>
                 I have had the oppurtinity to work with a diverse group of companies.some of the notable companies I have worked with includes
+                Fidelity and infosys
             </p>
-            <div className='clientImgs'>
-                <img src={Walmart} alt="client" className='clientImg'/>
-                <img src={Adobe} alt="client" className='clientImg'/>
-                <img src={Microsoft} alt="client" className='clientImg'/>
-                <img src={Facebook} alt="client" className='clientImg'/>
-            </div>
+           
         </div>
         <div id="contact">
             <h1 className='contactPageTitle'>Contact Me</h1>

@@ -9,11 +9,11 @@ const Intro = () => {
     <section id="intro">
         <div className='introcontent'>
             <span className='hello'>Hello,</span>
-            <span className='introText'>I'm<span className='introName'>smith</span> <br/> website Designer</span>
+            <span className='introText'>I'm<span className='introName'> priyanka anugu</span> <br/> website Designer</span>
             <p className='introPara'> I am a Skilled web designer with experience in creating <br/>user friemdly websites </p>
             <Link><button className='btn'><img src={btnImg} alt="Hire Me" className='btnImg'/>Hire Me</button></Link>
         </div>
-        <img src={bg} alt="profile" className='bg'/>
+        {/* <img src={bg} alt="profile" className='bg'/> */}
     </section>
   )
 }
